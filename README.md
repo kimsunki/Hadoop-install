@@ -81,3 +81,8 @@
     export JAVA_LIBRARY_PATH=$HADOOP_HOME/lib/native:$JAVA_LIBRARY_PATH
 
     $source $HOME/.bashrc
+
+
+
+
+hadoop fs -rm user/output/text.txt
